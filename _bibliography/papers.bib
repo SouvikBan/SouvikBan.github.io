@@ -1,0 +1,49 @@
+---
+---
+
+@inproceedings{banerjee-etal-2022-generalised,
+    abbr = {ICON},
+    selected = {true},
+    title = "Generalised Spherical Text Embedding",
+    author = "Banerjee, Souvik  and
+      Mishra, Bamdev  and
+      Jawanpuria, Pratik  and
+      Shrivastava, Manish Shrivastava",
+    editor = "Akhtar, Md. Shad  and
+      Chakraborty, Tanmoy",
+    booktitle = "Proceedings of the 19th International Conference on Natural Language Processing (ICON)",
+    month = dec,
+    year = "2022",
+    address = "New Delhi, India",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.icon-main.11",
+    pages = "80--85",
+    abstract = "This paper aims to provide an unsupervised modelling approach that allows for a more flexible representation of text embeddings. It jointly encodes the words and the paragraphs as individual matrices of arbitrary column dimension with unit Frobenius norm. The representation is also linguistically motivated with the introduction of a metric for the ambient space in which we train the embeddings that calculates the similarity between matrices of unequal number of columns. Thus, the proposed modelling and the novel similarity metric exploits the matrix structure of embeddings. We then go on to show that the same matrices can be reshaped into vectors of unit norm and transform our problem into an optimization problem in a spherical manifold for optimization simplicity. Given the total number of matrices we are dealing with, which is equal to the vocab size plus the total number of documents in the corpus, this makes the training of an otherwise expensive non-linear model extremely efficient. We also quantitatively verify the quality of our text embeddings by showing that they demonstrate improved results in document classification, document clustering and semantic textual similarity benchmark tests.",
+}
+
+@inproceedings{bhat-etal-2020-word,
+    abbr = {RepL4NLP},
+    selected = {true},
+    title = "Word Embeddings as Tuples of Feature Probabilities",
+    author = "Bhat, Siddharth  and
+      Debnath, Alok  and
+      Banerjee, Souvik  and
+      Shrivastava, Manish",
+    editor = "Gella, Spandana  and
+      Welbl, Johannes  and
+      Rei, Marek  and
+      Petroni, Fabio  and
+      Lewis, Patrick  and
+      Strubell, Emma  and
+      Seo, Minjoon  and
+      Hajishirzi, Hannaneh",
+    booktitle = "Proceedings of the 5th Workshop on Representation Learning for NLP",
+    month = jul,
+    year = "2020",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2020.repl4nlp-1.4",
+    doi = "10.18653/v1/2020.repl4nlp-1.4",
+    pages = "24--33",
+    abstract = "In this paper, we provide an alternate perspective on word representations, by reinterpreting the dimensions of the vector space of a word embedding as a collection of features. In this reinterpretation, every component of the word vector is normalized against all the word vectors in the vocabulary. This idea now allows us to view each vector as an $n$-tuple (akin to a fuzzy set), where $n$ is the dimensionality of the word representation and each element represents the probability of the word possessing a feature. Indeed, this representation enables the use fuzzy set theoretic operations, such as union, intersection and difference. Unlike previous attempts, we show that this representation of words provides a notion of similarity which is inherently asymmetric and hence closer to human similarity judgements. We compare the performance of this representation with various benchmarks, and explore some of the unique properties including function word detection, detection of polysemous words, and some insight into the interpretability provided by set theoretic operations.",
+}
